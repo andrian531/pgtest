@@ -1,0 +1,34 @@
+ <widget xmlns       = "http://www.w3.org/ns/widgets"
+    xmlns:gap       = "http://phonegap.com/ns/1.0"
+    xmlns:android   = "http://schemas.android.com/apk/res/android"
+    id              = "com.testpg.blog"
+    version         = "1.0.0">
+       
+    <!-- For more information about using config.xml, see
+        https://build.phonegap.com/docs/config-xml -->
+    
+    <!-- this app will have no device api access -->
+    <preference name="permissions" value="none"/>
+    <icon src="icon.jpg" /> 
+    <!-- kode untuk splash screen
+    iOS
+    <gap:splash src="dokyasde_splash.png" width="320" height="480" />
+    <gap:splash src="dokyasde_splash.png" width="640" height="960" />
+    <gap:splash src="dokyasde_splash.png" width="1024" height="768" />
+    <gap:splash src="dokyasde_splash.png" width="768" height="1024" />
+    Android 
+    <gap:splash src="dokyasde_splash.png" gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="dokyasde_splash.png" gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="dokyasde_splash.png" gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="dokyasde_splash.png" gap:platform="android" gap:density="xhdpi" />
+     Windows Phone
+    <gap:splash src="dokyasde_splash.jpg" gap:platform="winphone" />
+	 -->
+    <name>Test PG</name>
+    <description>
+        Sharing tentang website, internet, jaringan, linux, mobile dan aplikasi. 
+    </description>
+    <author href="iseng-isen9.blogspot.com" email="andrianto531@gmail.com">
+        Test PG
+    </author>
+</widget>
